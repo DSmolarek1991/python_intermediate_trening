@@ -31,9 +31,7 @@ class Cat:
 
 
 
-cat1 = Cat('cat1')
-cat1.eat_mause()
-print(cat1.eat_mause_view())
+
 
 
 

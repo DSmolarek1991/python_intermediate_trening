@@ -1,4 +1,5 @@
-import sound
+from sda_excersises_oop_1 import sound
+
 
 class Cat:
     def __init__(self,name,eat = 0):
@@ -7,7 +8,7 @@ class Cat:
 
 
 
-    def make_Sound(self):
+    def make_sound(self):
         return  f"{self.name} {sound.slownik[self.name]}"
 
 

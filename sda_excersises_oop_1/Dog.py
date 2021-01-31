@@ -1,4 +1,5 @@
-import sound
+from sda_excersises_oop_1 import sound
+
 
 class Dog:
     def __init__(self,name):

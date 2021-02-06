@@ -1,15 +1,11 @@
 from sda_excersises_oop_1.Cat import Cat
 from sda_excersises_oop_1.Dog import Dog
-from sda_excersises_oop_2.employee import Employee
-from sda_excersises_oop_2.man import Manager
 
 
 def main():
-    manager = Manager('Daniel', 'Smolarek', 1991, 3000)
-    print(manager.who_am_i())
-
-
-
+    lista = [Cat('cat1'),Dog('dog1')]
+    for animal in lista:
+        print(animal.make_sound())
 
 
 if __name__ == '__main__':
